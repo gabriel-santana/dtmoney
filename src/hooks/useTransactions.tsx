@@ -14,6 +14,7 @@ interface Transaction {
 
 type TransactionInput = Omit<Transaction, 'id' | 'createdAt'>
 
+
 interface TrasactionsProviderProps {
   children: ReactNode;
 }
@@ -21,6 +22,7 @@ interface TrasactionsProviderProps {
 interface TransactionsContextData {
   transactions: Transaction[];
   createTransaction: (transaction: TransactionInput) => Promise<void>;
+  deleteTransaction: (id: number) => Promise<void>;
 }
 
 const TransactionsContext = createContext<TransactionsContextData>(
@@ -42,8 +44,18 @@ export function TransactionsProvider({ children }: TrasactionsProviderProps) {
       setTransactions([...transactions, transaction]);
     }
 
+    async function deleteTransaction(id: number) {
+      await api.delete(`/transactions/${id}`);
+
+      api.get('transactions')
+      .then(response => setTransactions(response.data.transactions));
+      
+    }
+
+    
+
     return (
-      <TransactionsContext.Provider value={{transactions, createTransaction}} >
+      <TransactionsContext.Provider value={{transactions, createTransaction, deleteTransaction }} >
         {children}
       </TransactionsContext.Provider>
     );

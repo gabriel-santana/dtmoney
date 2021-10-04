@@ -33,6 +33,36 @@ export const Container = styled.div`
       &.withdraw {
         color: var(--red);
       }
+
+      div {
+        max-width: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          max-width: 3rem;
+          border: 0;
+          padding: 0.75rem;
+          border-radius: 0.25rem;
+          height: 2.5rem;
+
+          background: transparent;
+
+			
+			    transition: filter 0.2s;
+
+			    &:hover {
+				    filter: brightness(0.8);
+			    }
+          
+        }
+      }
+      
     }
   }
 `;

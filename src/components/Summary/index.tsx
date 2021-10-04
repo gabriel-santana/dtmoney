@@ -50,7 +50,7 @@ export function Summary() {
                   style: 'currency',
                   currency: 'BRL',
                   
-                }).format(-summary.withdraws)}
+                }).format(summary.withdraws === 0 ? summary.withdraws : -summary.withdraws)}
         </strong>
       </div>
       <div className="highlight-background">

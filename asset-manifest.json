@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.js": "/dtmoney/static/js/main.a637cf7d.chunk.js",
-    "main.js.map": "/dtmoney/static/js/main.a637cf7d.chunk.js.map",
+    "main.js": "/dtmoney/static/js/main.5f2049a4.chunk.js",
+    "main.js.map": "/dtmoney/static/js/main.5f2049a4.chunk.js.map",
     "runtime-main.js": "/dtmoney/static/js/runtime-main.69beff9e.js",
     "runtime-main.js.map": "/dtmoney/static/js/runtime-main.69beff9e.js.map",
-    "static/js/2.57523f75.chunk.js": "/dtmoney/static/js/2.57523f75.chunk.js",
-    "static/js/2.57523f75.chunk.js.map": "/dtmoney/static/js/2.57523f75.chunk.js.map",
+    "static/js/2.3475500b.chunk.js": "/dtmoney/static/js/2.3475500b.chunk.js",
+    "static/js/2.3475500b.chunk.js.map": "/dtmoney/static/js/2.3475500b.chunk.js.map",
     "index.html": "/dtmoney/index.html",
-    "static/js/2.57523f75.chunk.js.LICENSE.txt": "/dtmoney/static/js/2.57523f75.chunk.js.LICENSE.txt",
+    "static/js/2.3475500b.chunk.js.LICENSE.txt": "/dtmoney/static/js/2.3475500b.chunk.js.LICENSE.txt",
     "static/media/close.f62862c6.svg": "/dtmoney/static/media/close.f62862c6.svg",
     "static/media/income.d58effe2.svg": "/dtmoney/static/media/income.d58effe2.svg",
     "static/media/logo.614d71d1.svg": "/dtmoney/static/media/logo.614d71d1.svg",
     "static/media/outcome.6eb96d30.svg": "/dtmoney/static/media/outcome.6eb96d30.svg",
-    "static/media/total.e90c2d1e.svg": "/dtmoney/static/media/total.e90c2d1e.svg"
+    "static/media/total.e90c2d1e.svg": "/dtmoney/static/media/total.e90c2d1e.svg",
+    "static/media/trash.c9ca795d.svg": "/dtmoney/static/media/trash.c9ca795d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.69beff9e.js",
-    "static/js/2.57523f75.chunk.js",
-    "static/js/main.a637cf7d.chunk.js"
+    "static/js/2.3475500b.chunk.js",
+    "static/js/main.5f2049a4.chunk.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/dtmoney/static/js/main.5f2049a4.chunk.js",
-    "main.js.map": "/dtmoney/static/js/main.5f2049a4.chunk.js.map",
+    "main.js": "/dtmoney/static/js/main.891ee1b3.chunk.js",
+    "main.js.map": "/dtmoney/static/js/main.891ee1b3.chunk.js.map",
     "runtime-main.js": "/dtmoney/static/js/runtime-main.69beff9e.js",
     "runtime-main.js.map": "/dtmoney/static/js/runtime-main.69beff9e.js.map",
     "static/js/2.3475500b.chunk.js": "/dtmoney/static/js/2.3475500b.chunk.js",
@@ -18,6 +18,6 @@
   "entrypoints": [
     "static/js/runtime-main.69beff9e.js",
     "static/js/2.3475500b.chunk.js",
-    "static/js/main.5f2049a4.chunk.js"
+    "static/js/main.891ee1b3.chunk.js"
   ]
 }
